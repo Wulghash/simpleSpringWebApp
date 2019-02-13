@@ -24,6 +24,8 @@ public class MainController {
         return "greeting";
     }
 
+    
+    //Комментарий
 
     @GetMapping("main")
     public String main(Map<String, Object> model) {
