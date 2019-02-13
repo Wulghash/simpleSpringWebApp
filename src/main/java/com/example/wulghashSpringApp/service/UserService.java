@@ -1,6 +1,6 @@
-package com.example.sweater.service;
+package com.example.wulghashSpringApp.service;
 
-import com.example.sweater.repos.UserRepo;
+import com.example.wulghashSpringApp.repos.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

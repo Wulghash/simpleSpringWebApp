@@ -1,6 +1,6 @@
-package com.example.sweater.repos;
+package com.example.wulghashSpringApp.repos;
 
-import com.example.sweater.domain.Message;
+import com.example.wulghashSpringApp.domain.Message;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;
