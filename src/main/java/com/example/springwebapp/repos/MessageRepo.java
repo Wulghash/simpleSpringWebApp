@@ -1,12 +1,11 @@
-package com.example.sweater.repos;
+package com.example.springwebapp.repos;
 
-import com.example.sweater.domain.Message;
+import com.example.springwebapp.domain.Message;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;
 
 public interface MessageRepo extends CrudRepository<Message, Long> {
     List<Message> findByTag(String tag);
-
 
 }
